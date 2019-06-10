@@ -2,7 +2,6 @@
 ## functions do
 
 ## Write a short comment describing this function
-
 ##This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) { # x is a default empty matrix
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) { # x is a default empty matrix
         list(set = set, get = get,
              setinverse = setinverse,
              getinverse = getinverse) #set the list for various functions
-
+        
 }
 
 
